@@ -1,4 +1,4 @@
-!DOCTYPE
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,23 +18,38 @@
         }
         header{
             display:flex;
+            margin: 3px;
             background-color: greenyellow;
+            flex: 1 1 100vw;
+            height: 100px;
         }
         nav{
             display:flex;
+            margin: 3px;
             background-color: aqua;
+            flex: 1 1 200vw
         }
         main{
             display:flex;
+            margin: 3px;
             background-color: aquamarine;
+            flex: 1 1 100vw;
+            height: calc(100vh - 244px);
+            flex: 20 1 500px;
         }
         aside{
             display:flex;
-            background-color: azure;
+            margin: 3px;
+            background-color: violet;
+            flex: 1 1 100vw;
+            flex: 1 1 200px;
         }
         footer{
             display:flex;
+            margin: 3px;
             background-color: blueviolet;
+            flex: 1 1 100vw;
+            height: 100px;
         }
     </style>
 </head>
@@ -42,9 +57,8 @@
     <header>Cabeçalho</header>  
     <nav> menu </nav>
     <main> principal </main>
-    <aside> Relacionado ao princiapl</aside>
+    <aside> Relacionado ao principal</aside>
     <footer> rodapé </footer>
 
 </body>
 </html>
-
