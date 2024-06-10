@@ -1,64 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Layout</title>
+    <title>Apresentação do Grupo</title>
     <style>
-        * {
-            margin: 0; 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
-        body{
-            display:flex;
-            margin:3px;
-            flex-wrap:wrap;
-            flex:1 1 100;
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
         }
-        header{
-            display:flex;
-            margin: 3px;
-            background-color: greenyellow;
-            flex: 1 1 100vw;
-            height: 100px;
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
-        nav{
-            display:flex;
-            margin: 3px;
-            background-color: aqua;
-            flex: 1 1 200vw
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
         }
-        main{
-            display:flex;
-            margin: 3px;
-            background-color: aquamarine;
-            flex: 1 1 100vw;
-            height: calc(100vh - 244px);
-            flex: 20 1 500px;
+        .member {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
         }
-        aside{
-            display:flex;
-            margin: 3px;
-            background-color: violet;
-            flex: 1 1 100vw;
-            flex: 1 1 200px;
+        .member h2 {
+            color: #333;
         }
-        footer{
-            display:flex;
-            margin: 3px;
-            background-color: blueviolet;
-            flex: 1 1 100vw;
-            height: 100px;
+        .member p {
+            color: #666;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <header>Cabeçalho</header>  
-    <nav> menu </nav>
-    <main> principal </main>
-    <aside> Relacionado ao principal</aside>
-    <footer> rodapé </footer>
+
+<header>
+    <h1>ESQUILOS E AS ESQUILETES</em></h1>
+</header>
+
+<section>
+    <h2>Sobre o Grupo</h2>
+    <p>Conheça nosso grupo e suas contribuições para o projeto.</p>
+</section>
+
+<section class="member">
+    <h2>Membro 1</h2>
+    <p><strong>nome:</strong> Emelly</p>
+    <p><strong>sobre:</strong></p>É uma pessoa alegre e amigavel, tem 16 anos e usa oculos
+    <p><strong>Contribuição:</strong> Responsável pela pesquisa e organização do projeto.</p>
+</section>
+
+<section class="member">
+    <h2>Membro 2</h2>
+    <p><strong>Nome:</strong>Iury alexrande</p>
+    <p><strong>sobre:</strong> </p>É uma pessoa que gosta de jogar e também de jogar bola.
+    <p><strong>Contribuição:</strong> Criou o design da página web e ajudou na formatação do conteúdo.</p>
+</section>
+
+<section class="member">
+    <h2>Membro 3</h2>
+    <p><strong>Nome:</strong> Vinicius da silva</p>
+    <p><strong>Sobre:</strong> É uma pessoa lega r e amigavel</p>
+    <p><strong>Contribuição:</strong> Escreveu o código HTML, CSS e JavaScript para tornar a página interativa.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Apresentação do Grupo. Todos os direitos reservados.</p>
+</footer>
 
 </body>
 </html>
