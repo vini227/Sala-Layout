@@ -1,85 +1,161 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apresentação do Grupo</title>
+    <title>Sala de Estar</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            background-color: #ffffffd5;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #333;
+            background-color: #1e65b6;
             color: #fff;
-            padding: 20px;
+            padding: 10px;
             text-align: center;
         }
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #333;
+        nav {
+            background-color: #0c3ba0;
             color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .main {
+            float: left;
+            width: 70%;
+        }
+        .sidebar {
+            float: left;
+            width: 30%;
+            background: #ffffff;
+            padding: 10px;
+        }
+        .members {
+            clear: both;
             padding: 20px;
             text-align: center;
         }
         .member {
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
+            display: inline-block;
+            width: 20%;
+            margin: 10px;
+            text-align: center;
+            vertical-align: top;
         }
-        .member h2 {
-            color: #333;
-        }
-        .member p {
-            color: #666;
+        .member img {
+            width: 80%;
+            border-radius: 50%;
             margin-bottom: 10px;
+        }
+        .member h3 {
+            margin: 5px 0;
+        }
+        .footer {
+            background-color: #0c3ba0;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Esquilos e as Esquiletes</h1>
+    </header>
+    <div class="container">
+        <section class="main">
+            <h2>Bem vindo ao site da Sala</h2>
+            <p>Aqui iremos contar um pouco sobre as características e personalidade dos membros do nosso grupo.</p>
+            <p> Projeto da aula de programação com o professor Arisberto.</p>
+        </section>
+        <aside class="sidebar">
+            <h3>Informações</h3>
+            <p>Colegio Estadual Professora Dirce Celestino do Amaral</p>
+            <p>Data: 17/06/2024</p>
+            <p>2º B Nem</p>
+            <p>Grupo da sala: Esquilos e as Esquiletes</p>
+            <h3>Sobre o colégio</h3>
+            <p>Os alunos do colégio Dirce, estão totalmente satisfeitos com este ambiente. O colégio possuí áreas diversificadas, o que colabora para o nosso bem estar. Gostamos de aprender e se conectar com as diciplínas e professores, deixando o colégio alegre cheio de sabedoria.</p>
+            <img src="Iscola.png">
+            <h3>Sobre a turma</h3>
+            <p>Nós do 2° B, adoramos nossa convivência e a união que temos uns com os outros. Sempre procuramos realizar os trabalhos com eficiência e agilidade para com o comprometimento com os professores. Queremos um ambiente cada vez mais agrádavel e participativo entre os alunos.</p>
+            <img src="Cadera.jpeg">
+        </aside>
+        <div class="members">
+            <h2>Nossos Membros</h2>
+            <div class="member">
+                <img src="🏆❤️.jpeg" alt="Membro 1">
+                <h3>Iury Alexandre</h3>
+                <p>Idade: 16 anos</p>
+                <p>Cor favorita: Vermelho</p>
+                <p>Hobbies: Esportes e Jogos digitais</p>
+                <p>Frase representativa: "Sonhar e nunca desistir"</p>
+            </div>
+            <div class="member">
+                <img src="Cantigas De Amigo.jpeg" alt="Membro 2">
+                <h3>Vinicius da Silva</h3>
+                <p>Idade: 15 anos</p>
+                <p>Cor favorita: Verde</p>
+                <p>Hobbies: Esportes e Jogos digitais</p>
+                <p>Frase representativa: "I belong to Jesus" </p>
+            </div>
+            <div class="member">
+                <img src="Kendall.jpeg" alt="Membro 3">
+                <h3>Emilly Luize</h3>
+                <p>Idade: 17 anos</p>
+                <p>Cor favorita: Rosa e Cherry</p>
+                <p>Hobbies: Autocuidado e música.</p>
+                <p>Frase representativa: "Só se vive uma vez"</p>
+            </div>
+            <div class="member">
+                <img src="Travis Scott.jpeg" alt="Membro 4">
+                <h3>Emelly Golçalves</h3>
+                <p>Idade: 16 anos</p>
+                <p>Cor favorita: Azul</p>
+                <p>Hobbies: Escutar música, ler e dormir</p>
+                <p>Frase representativa: "Real"</p>
+            </div>
+            <div class="member">
+                <img src="Hailey.jpeg" alt="Membro 5">
+                <h3>Sofia Oliveira</h3>
+                <p>Idade: 16 anos</p>
+                <p>Cor favorita: Azul e Roxo</p>
+                <p>Hobbies: Música, autocuidado, escrever, correr, assistir filmes e brincar com minha cachorrinha</p>
+                <p>Frase representativa: "Oh, because i'm so that girl"</p>
+            </div>
+            <h3>Disciplinas</h3>
+                <h3>Biologia</h3>
+                <img src="elephant.jpeg" 
+                width="400px"
+                height="400px">
+                <p>
+                    <div>  É uma ciência que se preocupa com o estudo da vida nas suas mais variadas formas e níveis.</div> <div> profissional dessa área é denominado biólogo. A Biologia é uma área complexa que se destina ao estudo dos seres vivos.</div></p>
 
-<header>
-    <h1>ESQUILOS E AS ESQUILETES</em></h1>
-</header>
+                    <h3>Matemática</h3>
+                    <img src="matematica.jpeg" width="400px" height="400px"
+            </aside>
+        </div>
+    </div>
+ 
 
-<section>
-    <h2>Sobre o Grupo</h2>
-    <p>Conheça nosso grupo e suas contribuições para o projeto.</p>
-</section>
-
-<section class="member">
-    <h2>Membro 1</h2>
-    <p><strong>nome:</strong> Emelly</p>
-    <p><strong>sobre:</strong></p>É uma pessoa alegre e amigavel, tem 16 anos e usa oculos
-    <p><strong>Contribuição:</strong> Responsável pela pesquisa e organização do projeto.</p>
-</section>
-
-<section class="member">
-    <h2>Membro 2</h2>
-    <p><strong>Nome:</strong>Iury alexrande</p>
-    <p><strong>sobre:</strong> </p>É uma pessoa que gosta de jogar e também de jogar bola.
-    <p><strong>Contribuição:</strong> Criou o design da página web e ajudou na formatação do conteúdo.</p>
-</section>
-
-<section class="member">
-    <h2>Membro 3</h2>
-    <p><strong>Nome:</strong> Vinicius da silva</p>
-    <p><strong>Sobre:</strong> É uma pessoa lega r e amigavel</p>
-    <p><strong>Contribuição:</strong> Escreveu o código HTML, CSS e JavaScript para tornar a página interativa.</p>
-</section>
-
-<footer>
-    <p>&copy; 2024 Apresentação do Grupo. Todos os direitos reservados.</p>
-</footer>
 
 </body>
 </html>
